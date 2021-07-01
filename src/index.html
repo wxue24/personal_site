@@ -4,6 +4,77 @@ layout: layouts/base.njk
 date: 2021-06-29
 ---
 
-<div class="container bg-blue-300">
-  <button class="bg-white py-2 px-4 m-3 rounded">Hello</button>
+<div class="container px-20 h-ful">
+  <div class="flex flex-row py-48 mx-10 space-x-20">
+    <div class="flex flex-col justify-center px-10 text-forest text-3xl">
+      <div class="h-3 bg-sleek rounded-md mb-3">
+
+      </div>
+      <p class="">
+        I'm Will, an aspiring entrepreneur and computer nerd. I love solving
+        problems using the awesome power of technology!
+      </p>
+    </div>
+    <img
+      src="./assets/img/me.png"
+      class="transform w-52 h-52 rounded-full shadow-2xl hover:scale-105"
+    />
+  </div>
+  <div class="relative h-96 mx-36 text-forest text-xl font-semibold">
+    <div
+      class="
+        absolute
+        right-0
+        z-20
+        bg-feather
+        w-7/12
+        h-80
+        rounded-3xl
+        shadow-2xl
+        border-forest border-l-2 border-b-2
+        bg-gradient-to-r
+        from-marine
+        to-feather
+        p-5
+        flex flex-col
+        justify-center
+      "
+    >
+      <p class="font-medium text-2xl">Check out some of my projects</p>
+      <ul class="mt-10">
+        <a href="#">
+          <li class="hover:opacity-50">Project 1</li>
+        </a>
+        <a href="#">
+          <li class="hover:opacity-50">Project 2</li> </a
+        ><a href="#">
+          <li class="hover:opacity-50">Project 3</li>
+        </a>
+      </ul>
+    </div>
+    <div
+      class="
+        absolute
+        bottom-0
+        z-10
+        bg-marine
+        w-7/12
+        h-80
+        rounded-3xl
+        shadow-2xl
+        border-forest border-l-2 border-b-2
+        bg-gradient-to-r
+        from-feather
+        to-marine
+        p-5
+        flex flex-col
+        justify-center
+      "
+    >
+      <p class="mb-10">Learn more about me</p>
+      <a href="#">
+        <i class="bx bxs-chevrons-right"></i>
+      </a>
+    </div>
+  </div>
 </div>
