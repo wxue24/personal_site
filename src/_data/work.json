@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Treasurer of PAACE",
+    "time": "May 2021 - Present",
+    "description": "Pan-Asian Association for Cultural Exchange club at Washington and Lee",
+    "tags": ["Leadership, Business"]
+  },
+  {
+    "title": "Software Engineer Intern for Cloud Sweeper",
+    "time": "February 2021 - Present",
+    "description": "Cloudsweeper is a research project being conducted by Chris Kanich at the University of Illinois at Chicago. It allows users to audit, encrypt, and redact sensitive information within cloud storage accounts. I assisted in developing the front end, utilizing 11ty (a static site generator) and ReactJS.",
+    "tags": ["Tech"]
+  },
+  {
+    "title": "Crew Member at McDonalds",
+    "time": "February 2020 - June 2020",
+    "description": "",
+    "tags": ["Customer Service"]
+  },
+  {
+    "title": "Founder of Common Good Tutors",
+    "time": "August 2018 - June 2020",
+    "description": "",
+    "tags": ["Leadership", "Tech"]
+  }
+]
