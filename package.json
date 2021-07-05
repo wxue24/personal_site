@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "npm-run-all --parallel bundle:*",
-    "bundle:eleventy": "eleventy --serve --quiet",
+    "start": "npm-run-all --parallel bundle:*",
+    "bundle:eleventy": "eleventy --serve",
     "bundle:tailwind": "parcel src/assets/css/* --dist-dir dist/assets/css",
     "build": "npm-run-all --parallel prod:*",
     "prod:eleventy": "eleventy",
