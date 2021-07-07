@@ -8,7 +8,7 @@
   {
     "title": "Software Engineer Intern for Cloud Sweeper",
     "time": "February 2021 - Present",
-    "description": "Cloudsweeper is a research project being conducted by Chris Kanich at the University of Illinois at Chicago. It allows users to audit, encrypt, and redact sensitive information within cloud storage accounts. I assisted in developing the front end, utilizing 11ty (a static site generator) and ReactJS.",
+    "description": "Cloudsweeper is a research project being conducted by Chris Kanich at the University of Illinois at Chicago. It allows users to audit, encrypt, and redact sensitive information within cloud storage accounts. I assisted in developing the front end, utilizing 11ty (a static site generator) and ReactJS, as well as refactoring the backend in Python.",
     "tags": ["Tech"]
   },
   {
