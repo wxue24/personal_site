@@ -7,16 +7,17 @@
       {{ title }}
     </title>
     <meta name="Description" content="" />
-    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link
+      href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/assets/css/styles.css" />
   </head>
 
-  <body class="container h-screen font-serif">
+  <body class="container font-serif">
     {% include "../components/navbar.html" %}
-    <main>
-      <div >
-        {{ content | safe }}
-      </div>
+    <main class="h-full min-h-screen">
+      {{ content | safe }}
     </main>
     {% include "../components/footer.html" %}
   </body>

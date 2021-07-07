@@ -4,7 +4,6 @@ const getItems = (work) => {
   let items = "";
   let side = "right";
   for (const w of work) {
-    console.log(w);
     items = items + timelineItem(side, w.title, w.time, w.description, w.tags);
     if (side === "right") side = "left";
     else side = "right";

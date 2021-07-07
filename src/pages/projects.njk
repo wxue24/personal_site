@@ -3,3 +3,19 @@ title: Projects
 layout: layouts/base.njk
 permalink: /projects/
 ---
+
+<div class="my-20 mx-32">
+  
+    {% for p in projects %}
+    <div class="my-10">
+        <h1 class="text-3xl uppercase">{{ p.title }}</h1>
+        {% for h in p.headers %}
+            <h2 class="text-2xl italic">{{h}}</h2>
+            <p>
+            {{p.paragraphs[loop.index0]}}
+            </p>
+        {% endfor %}
+    </div>
+    {% endfor %}
+
+</div>
