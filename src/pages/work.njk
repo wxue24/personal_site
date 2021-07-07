@@ -3,9 +3,11 @@ title: Work
 layout: layouts/base.njk
 permalink: /work/
 ---
+
 {% set side = cycler('right', "left") %}
 
 <div class="m-10">
+  <h1 class="text-center text-3xl py-10 text-forest">Work, Leadership, and Professional Development</h1>
   <div class="bg-white text-forest">
     <div class="container mx-auto flex flex-row justify-center md:flex-row">
       <div class="ml-0 md:ml-12 lg:w-2/3 sticky">
@@ -13,23 +15,19 @@ permalink: /work/
           <div class="relative wrap overflow-hidden p-10 h-full">
             <div class="bg-sleek absolute h-full w-1 right-1/2"></div>
             <div class="bg-sleek absolute h-full w-1 left-1/2"></div>
-            {% for w in work %}
-            {% if side.next() == "right" %}
-            <div
-              class="
-                mb-8
-                flex
-                justify-between
-                items-center
-                w-full
-              "
-            >
+            {% for w in work %} {% if side.next() == "right" %}
+            <div class="mb-8 flex justify-between items-center w-full">
               <div class="order-1 w-5/12"></div>
               <div class="order-1 w-5/12 px-1 py-4 text-left">
                 <p class="mb-3 text-base text-marine">{{ w.time }}</p>
                 <h4 class="mb-3 font-bold text-lg md:text-2xl">
                   {{ w.title }}
                 </h4>
+                <div class="flex space-x-5">
+                  {% for tag in w.tags %}
+                  <p class="px-3 py-1 bg-feather rounded-full">{{ tag }}</p>
+                  {% endfor %}
+                </div>
                 <p class="text-sm md:text-base text-black leading-snug">
                   {{ w.description }}
                 </p>
@@ -39,8 +37,7 @@ permalink: /work/
             <div
               class="
                 mb-8
-                flex
-                flex-row-reverse
+                flex flex-row-reverse
                 justify-between
                 items-center
                 w-full
@@ -52,15 +49,17 @@ permalink: /work/
                 <h4 class="mb-3 font-bold text-lg md:text-2xl">
                   {{ w.title }}
                 </h4>
+                <div class="flex flex-row-reverse space-x-reverse space-x-5">
+                  {% for tag in w.tags %}
+                  <p class="px-3 py-1 bg-feather rounded-full">{{ tag }}</p>
+                  {% endfor %}
+                </div>
                 <p class="text-sm md:text-base text-black leading-snug">
                   {{ w.description }}
                 </p>
               </div>
             </div>
-            {% endif %}
-            
-    
-            {% endfor %}
+            {% endif %} {% endfor %}
           </div>
         </div>
       </div>

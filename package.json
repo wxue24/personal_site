@@ -6,27 +6,30 @@
   "scripts": {
     "start": "npm-run-all --parallel bundle:*",
     "bundle:eleventy": "eleventy --serve",
-    "bundle:tailwind": "parcel src/assets/css/* --dist-dir dist/assets/css",
+    "bundle:css": "postcss src/assets/css/styles.css -o dist/assets/css/styles.css -w",
     "build": "npm-run-all --parallel prod:*",
     "prod:eleventy": "eleventy",
-    "prod:tailwind": "parcel build src/assets/css/* --out-dir dist/assets/css",
-    "clean": "rimraf dist .parcel-cache"
+    "prod:css": "cross-env ENV_BUILD=prod postcss src/assets/css/styles.css -o dist/assets/css/styles.css",
+    "clean": "rimraf dist"
   },
   "keywords": [],
   "author": "William Xue",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
+    "@fullhuman/postcss-purgecss": "^4.0.3",
     "autoprefixer": "^10.2.6",
     "cross-env": "^7.0.3",
+    "cssnano": "^4.1.11",
     "npm-run-all": "^4.1.5",
     "parcel": "*",
     "postcss": "^8.3.5",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.2",
     "rimraf": "^2.7.1",
     "tailwindcss": "^2.2.4"
   },
   "dependencies": {
-    "postcss-import": "^14.0.2",
     "postcss-modules": "^3.2.2"
   }
 }
