@@ -1,22 +1,23 @@
 module.exports = {
-  purge: [],
+  purge: [
+    "./src/**/*.html",
+    "./src/**/*.njk",
+    "./src/**/*.md"
+  ],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
-      backgroundImage: (theme) => ({
-        "landing-bg": "url('../img/landing-bg.svg')",
-      }),
       colors: {
         feather: "#77c9d4",
         marine: "#57bc90",
         forest: "#015249",
-        sleek: "#a5a5af"
+        sleek: "#a5a5af",
       },
     },
   },
   variants: {
     extend: {
-      zIndex: ["hover"]
+      zIndex: ["hover"],
     },
   },
   plugins: [],
