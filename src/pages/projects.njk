@@ -4,7 +4,7 @@ layout: layouts/base.njk
 permalink: /projects/
 ---
 
-<div class="my-20 mx-32">
+<div class="m-10 md:my-20 md:mx-32">
     {% for p in projects %}
     <div class="my-10">
         <h1 class="text-3xl uppercase my-5">{{ p.title }}</h1>
@@ -16,7 +16,7 @@ permalink: /projects/
         {% endfor %}
     </div>
     {% if p.github | length %}
-        <div class="border-b-2 pb-10">
+        <div class="border-b-2 pb-10 flex space-x-5">
             {% for g in p.github %}
                 <a href="{{g.link}}" class="bg-marine px-5 py-2 rounded-full text-white">{{g.name}}</a>
             {% endfor %}

@@ -4,12 +4,17 @@ layout: layouts/base.njk
 permalink: /
 ---
 
-<div class="container px-20 h-ful">
-  <div class="flex flex-row py-48 mx-10 space-x-20">
-    <div class="flex flex-col justify-center px-10 text-forest text-3xl">
+<div class="px-20 h-full">
+  <div class="flex flex-col py-10 md:flex-row lg:py-48 lg:mx-10 lg:space-x-20">
+    <div
+      class="flex flex-col justify-center px-5 lg:px-10 text-forest text-3xl"
+    >
       <div class="h-3 bg-sleek rounded-md mb-3 animate-pulse"></div>
       <p
         class="
+          text-lg
+          sm:text-xl
+          md:text-2xl
           group
           transition
           duration-500
@@ -22,7 +27,8 @@ permalink: /
         I'm Will, an
         <span class="group-hover:text-marine">entrepreneur</span> and
         <span class="group-hover:text-marine">computer nerd</span>. I enjoy
-        innovating creative solutions with technology to solve real-world problems!
+        innovating creative solutions with technology to solve real-world
+        problems!
       </p>
     </div>
     <img
@@ -32,28 +38,43 @@ permalink: /
         duration-500
         ease-in-out
         transform
-        w-52
-        h-52
+        absolute
+        md:relative
+        invisible
+        md:w-52 md:h-52
         rounded-full
         shadow-2xl
         hover:scale-105
+        md:visible
       "
     />
   </div>
-  <div class="relative h-96 mx-36 text-forest text-xl font-semibold">
-    <!--TODO have cards pop out when hovering-->
+  <div
+    class="
+      relative
+      h-auto
+      md:h-96
+      lg:mx-20
+      xl:mx-32
+      text-forest
+      lg:text-xl
+      font-semibold
+      space-y-5
+    "
+  >
     <div
       class="
+        items-center
+        md:items-start
         transition
         duration-500
         ease-in-out
         hover:scale-105
         transform
-        absolute
-        right-0
+        md:absolute md:right-0
         z-20
         bg-feather
-        w-7/12
+        md:w-7/12
         h-80
         rounded-3xl
         shadow-2xl
@@ -107,7 +128,7 @@ permalink: /
             hover:scale-105
             transform
           "
-          href="#"
+          href="/projects"
         >
           <i class="bx bx-folder-open" style="font-size: 50px"></i>
           <span class="self-center">View my projects</span>
@@ -116,16 +137,17 @@ permalink: /
     </div>
     <div
       class="
+        items-center
+        md:items-start
         transition
         duration-500
         ease-in-out
         hover:z-30 hover:scale-105
         transform
-        absolute
-        bottom-0
+        md:absolute md:bottom-0
         z-10
         bg-marine
-        w-7/12
+        md:w-7/12
         h-80
         rounded-3xl
         shadow-2xl
