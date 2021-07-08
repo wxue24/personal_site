@@ -2,25 +2,37 @@
   {
     "title": "PAACE Treasurer",
     "time": "May 2021 - Present",
-    "description": "Prepared the Pan-Asian Association for Cultural Exchange club budget of $2,300 and presented to the board for approval. Developed and maintained strategies for cash management, recording, and fundraising. Ensured that organization activities adhere to the budget.",
-    "tags": ["Leadership", "Business"]
+    "description": "Prepared the Pan-Asian Association for Cultural Exchange club budget of $2,300 and presented to the school board for approval. Developed and maintained strategies for cash management, recording, and fundraising. Ensured that organization activities adhere to the budget.",
+    "tags": ["Leadership", "Excel"]
   },
   {
     "title": "Software Engineer Intern for Cloud Sweeper",
     "time": "February 2021 - Present",
     "description": "Cloudsweeper is a research project being conducted by Chris Kanich at the University of Illinois at Chicago. It allows users to audit, encrypt, and redact sensitive information within cloud storage accounts. I assisted in developing the front end, utilizing 11ty (a static site generator) and ReactJS, as well as refactoring the backend in Python.",
-    "tags": ["Tech"]
+    "tags": ["Work", "Tech"]
   },
   {
     "title": "Crew Member at McDonalds",
     "time": "February 2020 - June 2020",
     "description": "Maintained high standards of customer service during high-volume, fast paced operations. Resolved complaints promptly and professionally.Cross-trained and coordinated scheduling with team members to ensure seamless service.",
-    "tags": ["Customer Service"]
+    "tags": ["Work", "Customer Service"]
+  },
+  {
+    "title": "AYPLP Representative",
+    "time": "April 2019",
+    "description": "Asian-Pacific Youth Leadership Project aims to build new foundations for Asian Pacific Islander (API) youth to become involved in community and public service in California. As one of the 50 selected students for a 3-day leadership conference at the California state capitol, I presented bills for passage in the mock committee and debated real-world issues on the Senate Floor.",
+    "tags": ["Leadership", "Personal Development"]
+  },
+  {
+    "title": "Thrive Scholar",
+    "time": "August 2018 - Present",
+    "description": "Selected as one of 100 students for a 6-year college access, college success and professional development program for high achieving, underrepresented first generation talent. Participate in a four-year comprehensive Career Development Program that includes professional Career Coaching, case studies and projects to hone analytical, quantitative, and communication skills.",
+    "tags": ["Personal Development"]
   },
   {
     "title": "Founder of Common Good Tutors",
-    "time": "August 2018 - June 2020",
+    "time": "March 2018 - June 2020",
     "description": "Started an organization that provided free 1-on-1 tutoring to 100+ high school students. Grew organization to 25+ tutors who collectively volunteered 400+ hours. Marketed service to entire school to attract both students who needed help and upperclassmen who could volunteer. Designed and executed strategy to scale service (balancing both tutors and tutees) during school year",
-    "tags": ["Leadership", "Tech"]
+    "tags": ["Leadership", "Work"]
   }
 ]
