@@ -8,6 +8,7 @@
     "bundle:eleventy": "eleventy --serve",
     "bundle:css": "postcss src/assets/css/styles.css -o dist/assets/css/styles.css -w",
     "build": "cross-env NODE_ENV=production run-s prod:css prod:eleventy ",
+    "start:prod": "cross-env NODE_ENV=production run-s prod:css bundle:eleventy",
     "prod:eleventy": "eleventy",
     "prod:css": "postcss src/assets/css/styles.css -o dist/assets/css/styles.css",
     "clean": "rimraf dist"
