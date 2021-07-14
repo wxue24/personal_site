@@ -1,13 +1,14 @@
 [
   {
     "title": "Meetup",
+    "time": "Ongoing",
     "paragraphs": [
       {
-        "header": "What is Meetup?",
+        "header": "About",
         "description": "Meetup is a mobile app that connects high school students based on similar interests. It was created during 2020 to solve the problem of depression among teenagers who, because of COVID, were not able to have social interactions as they would during a normal school year. By providing a platform where students can connect with each other based on shared interests, we can overcome COVID together."
       },
       {
-        "header": "Tech Stack?",
+        "header": "Tech Stack",
         "description": "The frontend is built with React Native for cross-platform development, Expo (a RN wrapper) for quicker and easier development, and Firebase for backend connections."
       }
     ],
@@ -21,9 +22,10 @@
   },
   {
     "title": "Project Eto",
+    "time": "Ongoing",
     "paragraphs": [
       {
-        "header": "What is Project Eto?",
+        "header": "About",
         "description": "Project Eto is a holistic peer-tutoring solution for the education crisis in high schools around the country. As part of a team of college entrepreneurs, I am developing mobile and web apps that will assist schools in implementing our program. The mobile app allows students and tutors to sign up for sessions, while the web app acts as an administrative dashboard and provides the necessary analytics to the program managers."
       },
       {
@@ -40,6 +42,7 @@
   },
   {
     "title": "Personal Site",
+    "time": "July, 2021",
     "paragraphs": [
       {
         "header": "Tech Stack",
@@ -50,6 +53,16 @@
       {
         "name": "Site",
         "link": "https://github.com/wxue24/personal_site"
+      }
+    ]
+  },
+  {
+    "title": "Virginia Redistricting",
+    "time": "May, 2021",
+    "paragraphs": [
+      {
+        "header": "About",
+        "description": "As part of a politics class, I used ArcMap (Geographic Information Systems technology) to create a new legislative district map of Virginia that better serves the interests of minority voters and promotes a more meaningful electoral process"
       }
     ]
   }
