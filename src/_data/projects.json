@@ -1,7 +1,21 @@
 [
   {
+    "title": "Electa",
+    "paragraphs": [
+      {
+        "header": "About",
+        "description": "Electa is a digital voting platform that provides the best security, transparency, and efficiency by using blockchain technology. Although only a concept at this time, me and my co-founders are intent on bring this idea to reality."
+      }
+    ],
+    "github": [
+      {
+        "name": "Pitch Deck",
+        "link": "https://mailwlu-my.sharepoint.com/:p:/g/personal/xuew24_mail_wlu_edu/EQHebV2Nnd9PgfzsLtguTvgBAGb58MB4hsfqoJxr3D0o1A?e=bKwIP6"
+      }
+    ]
+  },
+  {
     "title": "Meetup",
-    "time": "Ongoing",
     "paragraphs": [
       {
         "header": "About",
@@ -22,7 +36,6 @@
   },
   {
     "title": "Project Eto",
-    "time": "Ongoing",
     "paragraphs": [
       {
         "header": "About",
@@ -42,7 +55,6 @@
   },
   {
     "title": "Personal Site",
-    "time": "July, 2021",
     "paragraphs": [
       {
         "header": "Tech Stack",
@@ -58,7 +70,6 @@
   },
   {
     "title": "Virginia Redistricting",
-    "time": "May, 2021",
     "paragraphs": [
       {
         "header": "About",
