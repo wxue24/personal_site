@@ -1,5 +1,17 @@
 [
   {
+    "title": "Picasso Project",
+    "paragraphs": [
+      {
+        "header": "About",
+        "description": "A Java an application that allows the user to create expressions that evaluate to colors and then eventually to images. Lead a team of 5 to complete project over the span of four weeks."
+      }
+    ],
+    "github": [
+      { "name": "Project", "link": "https://github.com/wxue24/picasso-project" }
+    ]
+  },
+  {
     "title": "Electa",
     "paragraphs": [
       {

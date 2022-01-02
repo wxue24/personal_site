@@ -1,21 +1,33 @@
 [
   {
-    "title": "PAACE Treasurer",
+    "title":"Gentech Workshop Head",
+    "time":"November 2021 - Present",
+    "description":"Lead workshops throughout the year geared towards both technical and non-technical students at W&L. Work with executive team to plan schoolwide outreach strategy.",
+    "tags":["Leadership","Tech"]
+  },
+  {
+    "title": "Pan-Asian American Cultural Exchange Treasurer",
     "time": "May 2021 - Present",
     "description": "Prepared the Pan-Asian Association for Cultural Exchange club budget of $2,300 and presented to the school board for approval. Developed and maintained strategies for cash management, recording, and fundraising. Ensured that organization activities adhere to the budget.",
     "tags": ["Leadership", "Excel"]
   },
   {
-    "title": "Software Engineer Intern for Cloud Sweeper",
+    "title": "Software Engineer Intern for CloudSweeper",
     "time": "February 2021 - Present",
     "description": "Cloudsweeper is a research project being conducted by Chris Kanich at the University of Illinois at Chicago. It allows users to audit, encrypt, and redact sensitive information within cloud storage accounts. I assisted in developing the front end, utilizing 11ty (a static site generator) and ReactJS, as well as refactoring the backend in Python.",
     "tags": ["Work", "Tech"]
   },
   {
-    "title": "Member of Connolly Entrepreneurship Society",
+    "title": "Connolly Entrepreneurship Society",
     "time": "January 2021 - Present",
-    "description":"The Connolly Entrepreneurship Society prepares students to accel in a dynamic and ever-changing world by providing hands-on experiences for developing important skills and essential knowledge of entrepreneurship. During my time at CES, I created a business plan for a startup idea, pitched the idea to the school, as well as consulted for a startup called Cariend.",
+    "description":"Participated in startup incubation for peer-tutoring solution. Pitched blockchain based election service to school competition. Did pro bono consulting for medical records solution startup.",
     "tags": ["Leadership", "Consulting", "Project Management"]
+  },
+  {
+    "title":"Computer Science and Business Administration Student",
+    "time":"August 2020 - Present",
+    "description":"Double major @ Washington and Lee University. Awarded full-ride Johnson Scholarship, and made President's List in 2021."
+    ,"tags": ["Education"]
   },
   {
     "title": "Crew Member at McDonalds",
@@ -24,7 +36,7 @@
     "tags": ["Work", "Customer Service"]
   },
   {
-    "title": "AYPLP Representative",
+    "title": "Asian Pacific Youth Leadership Project (APYLP) Representative",
     "time": "April 2019",
     "description": "Asian-Pacific Youth Leadership Project aims to build new foundations for Asian Pacific Islander (API) youth to become involved in community and public service in California. As one of the 50 selected students for a 3-day leadership conference at the California state capitol, I presented bills for passage in the mock committee and debated real-world issues on the Senate Floor.",
     "tags": ["Leadership", "Personal Development"]
